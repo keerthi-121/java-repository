@@ -1,0 +1,36 @@
+METHODS OF WEBDRIVER:
+
+1.get(String url)		-  return type is void.
+	        		-  accepts String as an argument.
+	           		-  used to launch a new browser and opens the url.
+
+2.getWindowHandle()	- return type is String.
+		   	- used to handle single window that is main window(parent).
+
+3.getWindowHandles()  	- return type is Set.
+		    	-  used to handle multiple windows that is parent and child windows.
+
+4.close()			-  return type is void.
+			-  used to close the current browser window which is currently in focus.
+
+5.quit()			-  return type is void.
+			-  used to close all the browser windows which are currently opened and terminates the WebDriver.
+
+6.getTitle()		-  return type is String.
+			-  used to retrieve the title of the web page the user is currently working on.
+
+7.manage()		-  return type is Options.
+			-  used to manage browser window.
+
+8.getPageSource()		-  return type is String.
+			-  used to get the source of the currently loaded page.  
+
+9.getCurrentUrl()		-  return type is String.
+			-  used to retrieve the url of the webpage the user is currently accessing.
+
+10.navigate.To(string url)	-  return type is void. 
+			-  accepts String argument.
+			-  used to launch browser and opens url.
+
+11.switchTo()		-  return type is TargetLocator.
+			-  used to switch from one window to another window.
