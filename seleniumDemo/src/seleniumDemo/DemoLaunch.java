@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DemoLaunch {
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException  {
 		System.setProperty("webdriver.chrome.driver",".\\software\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
@@ -17,7 +17,7 @@ public class DemoLaunch {
 		email.sendKeys("keerthi");
 		WebElement pass=driver.findElement(By.id("pass"));
 		pass.sendKeys("keerthi");
-		/*driver.get("https://www.naukri.com/");
+		driver.get("https://www.naukri.com/");
 		String parent=driver.getWindowHandle();
 		System.out.println(parent+"P");
 		Thread.sleep(2000);
